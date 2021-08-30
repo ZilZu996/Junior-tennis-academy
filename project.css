@@ -1,0 +1,304 @@
+.menu {
+    background-color: white;
+}
+.logoBox h1 {
+    font-size: 3em;
+    margin: 0;
+    color:rgba(26, 73, 106, 0.9);
+    padding-top: 12px;
+}
+.Staatliches {
+    font-family: 'Staatliches', cursive;
+}
+nav ul {
+    padding-left: 0;
+    margin-top: 0;    
+}
+ul {
+    margin: 0;
+}
+nav ul li {
+    list-style: none;
+    padding: 12px;
+}
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+nav ul li:hover {
+    font-size: 1.2em;
+}
+.d-flex {
+    display: flex;
+}
+.justify-content-center {
+    justify-content: center;
+}
+.align-items-center {
+    align-items: center;
+}
+.boxSize1 {
+    width: 80%;
+    padding: 1.5em;
+    text-align: center;
+}
+.purposeImg {
+    width: 100%;
+    background-image: url(https://images.neobookings.com/cms/rafanadalacademy.com/section/summer-camp-kids/pics/summer-camp-kids-61enp22wk3.jpeg);
+    height: 110vh;
+    background-position: top;
+}
+.purposeBox {
+    background-color: rgba(44, 88, 116, 0.6);
+    color: white;
+    border-radius: 1em;
+}
+.textSize {
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+.openSans {
+    font-family: 'Open Sans', sans-serif;
+}
+.valuesBox {
+    color: rgb(0, 0, 0);
+    padding: 3.5em;
+    width: 80%;
+}
+.valuesBox h1 {
+    padding-bottom: 1em;
+}
+.program {
+    margin: 2em;  
+    margin-bottom: 4em;
+}
+.a-cen {
+    text-align: center;
+}
+.program img {
+    width: 100%;
+    background-position: top;
+}
+.program h2 {
+    padding: 0.5em;
+    margin: 1em 0 1em 0;
+}
+.button {
+    width: 100%;
+    background-color: rgba(26, 73, 106, 0.9);
+    height: 3em;
+    border-radius: 0.5em;
+    line-height: 3em;
+}
+.button a {
+    color: white;
+    text-decoration: none;
+}
+.coachItem img {
+    width: 100%;
+}
+.iframe {
+    width: 100%;
+}
+.details {
+    background-color: white;
+    padding: 12.5px;
+}
+.details p {   
+    font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3, h4 {
+    font-family: 'Staatliches', cursive;
+}
+.details h4 {
+    margin-bottom: 0.5em;
+}
+.coachItem {
+    padding-bottom: 1em;
+    background-color: rgba(26, 73, 106, 0.3);
+}
+.contactForm, .program  {
+    border: rgba(26, 73, 106, 0.5) solid 5px;     
+}
+.h1-marg {
+    margin: 1.5em;
+}
+.coaches {
+    margin: 2em;
+}
+.coachItem h3, .coachItem h4 {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+.coachItem h3 {
+    text-decoration: underline;
+}
+.contactBox {
+    margin: 2em;
+}
+label {
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 1em;  
+}
+.contactBox div input, .contactBox div select, .contactBox div textarea {
+    border-color:rgba(26, 73, 106, 0.3) ;
+    border-radius: 0.3em;
+    width: 100%;
+    height: 2.8em;
+    font-size: 1.2em;
+    font-family: 'Open Sans', sans-serif;
+    color:rgba(26, 73, 106, 0.8) ;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 3px;
+    margin-bottom: 5px;
+}
+.secondNav {    
+    display: flex;
+    justify-content: space-around;
+    background-color:rgba(26, 73, 106, 0.9);
+    height: 3em;
+    line-height: 3em;  
+}
+.secondNav a {
+    text-decoration: none;
+    color: white;
+}
+.secondNav a:hover {
+    font-size: 1.2em;
+}
+footer p {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+.adress {
+    padding: 2em;
+    background-color:rgba(26, 73, 106, 0.15);
+}
+.res-ifr {
+    width: 100%;
+    height: 250px;
+}
+.values, .contactForm, .coaches  {
+    border: rgba(26, 73, 106, 0.15) solid 3px;
+    border-style: outset;   
+}
+.program, .coaches {
+    border-radius: 0.3em;
+}
+.valuesBox h1, .program h2 {
+    border-bottom:black solid 2px ;
+}
+@media screen and (min-width:768px){
+    .menu {
+        display: flex;
+        border-bottom: black 4px solid;
+    }
+    .logoBox h1 {
+        font-size: 2.5em;
+        padding: 12px;
+        width: 205px;
+        border: 3px solid rgb(26, 73, 106);
+    }
+    nav {
+        width: 100%; 
+        padding-right: 1em; 
+    }
+    nav ul {
+        display: flex;
+        justify-content: flex-end;  
+        align-items: center;  
+        height: 100%; 
+    }
+    nav ul li a {
+        border-bottom: 3px solid rgb(26, 73, 106);
+        border-top:3px solid rgb(26, 73, 106);
+    }
+    nav ul li:hover {
+        font-size: 1.2em;
+    }
+    .values {
+        height: 110vh;
+        border: none;
+        background-color: rgba(26, 73, 106, 0.1);
+    }    
+    .valuesBox {
+        height: 50%;  
+        background-color: rgba(71, 129, 170, 0.15);
+        margin: auto;
+        max-width: 900px;
+    }
+    .program {
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
+        margin: auto;
+        margin-bottom: 4em ;   
+        max-width: 1000px;   
+    }
+    .program div img {
+        height: 100%;
+        object-fit: cover;   
+    }
+    .details {
+        padding-left: 40px;
+        padding-bottom: 20px;
+        padding-right: 10px ;
+    }
+    .coaches {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-self: center;
+        column-gap: 10px ;
+        border: none;
+        margin-top: 0;
+        max-width: 900px;
+    }
+    .coachSection {
+        display: grid;
+        justify-self: center;
+        background-color: rgba(26, 73, 106, 0.1);
+    }
+    .contactForm {
+        margin: auto;
+        max-width: 900px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        background-color: rgba(71, 129, 170, 0.15);    
+    }
+    .contactBox div input, .contactBox div select, .contactBox div textarea {
+        background-color: #E8ECF0;
+    }
+}   
+@media screen and (min-width:1281px){
+    .formBox {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 10px ;
+    }
+    .col3 { 
+       grid-column: 1/3;
+    }
+    .contactForm, .coaches {
+        max-width: 1100px;
+    }
+    .program, .purposeBox {
+        max-width: 1150px;
+    }
+    .valuesBox {
+        border: rgba(26, 73, 106, 0.5) solid 4px;      
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
